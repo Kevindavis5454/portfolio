@@ -3,11 +3,11 @@
 }
 
 body {
-    font-family: "Open serif", sans;
+    font-family: 'Nixie One', cursive;
     font-size: 20px;
     color: #444;
     text-align: center;
-    background-color: #e9eded;
+    background-color: #ecf0f4;
 
 }
 
@@ -35,10 +35,65 @@ hr {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
+}
+
+button {
+    background-color: #647791;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    font-size: 125%;
+
+}
+
+.lang-icons {
+    width: 50px;
+    height: 50px;
+}
+
+.lang-wide-icons {
+    width: 65px;
+    height: 50px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+
+    .project-pic {
+        width: 220px;
+        height: 220px;
+    }
+
+    footer {
+        width: 320px;
+    }
+
+    .lang-icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    .lang-wide-icons {
+        width: 45px;
+        height: 30px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 1099px) {
@@ -60,8 +115,13 @@ footer {
     footer {
         width: 625px;
         flex-direction: row;
-        justify-content: center;
     }
+
+    .project-pic {
+        width: 525px;
+        height: 525px;
+    }
+
 }
 
 @media screen and (min-width: 1100px) {
@@ -75,13 +135,25 @@ footer {
     }
 
     #project-buttons {
+        display: flex;
         width: 340px;
         padding: 10px;
+        border-right: black solid 1px;
     }
 
     #project-info {
         width: 760px;
         padding: 10px;
+    }
+
+    #current-projects {
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .project-pic {
+        width: 650px;
+        height: 650px;
     }
 
     section {
@@ -102,6 +174,5 @@ footer {
     footer {
         width: 1100px;
         flex-direction: row;
-        justify-content: center;
     }
 }

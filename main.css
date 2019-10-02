@@ -3,11 +3,11 @@
 }
 
 body {
-    font-family: "Open serif", sans;
+    font-family: 'Nixie One', cursive;
     font-size: 20px;
     color: #444;
     text-align: center;
-    background-color: #e9eded;
+    background-color: #ecf0f4;
 
 }
 
@@ -20,7 +20,7 @@ main {
 section {
     width: 100%;
     max-width: 320px;
-    background-color: #C9CDD6;
+    background-color: #cacdd6;
     padding: 15px;
     white-space: pre-line;
     line-height: 24px;
@@ -35,16 +35,68 @@ hr {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
 }
+
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    font-size: 125%;
+
+}
+
+.lang-icons {
+    width: 50px;
+    height: 50px;
+}
+
+.lang-wide-icons {
+    width: 65px;
+    height: 50px;
+}
+
+#linked-in-logo {
+    width: 50px;
+    height: 40px;
+}
+#github-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
 
 @media screen and (min-width: 0px) and (max-width: 500px) {
 
     .row-1 {
         display: none;
+    }
+
+    nav {
+        width: 320px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        width: 320px;
+    }
+
+    .lang-icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    .lang-wide-icons {
+        width: 45px;
+        height: 30px;
     }
 
 }
@@ -73,7 +125,6 @@ footer {
     footer {
         width: 625px;
         flex-direction: row;
-        justify-content: center;
     }
 }
 
@@ -100,12 +151,24 @@ footer {
 
     }
 
+    .language-icons {
+
+    }
+
     #section-break-left {
         width: 320px;
     }
 
     #section-break-right {
         width: 720px;
+    }
+
+    #left-names-1 {
+        height: 209px;
+    }
+
+    #left-names-2 {
+        height: 415px;
     }
 
     section {
@@ -125,7 +188,7 @@ footer {
     footer {
         width: 1100px;
         flex-direction: row;
-        justify-content: center;
+
     }
 
 
