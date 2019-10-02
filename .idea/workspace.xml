@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1518a93-482a-46d1-930f-9c880ec1e97c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569676277499</updated>
-      <workItem from="1569676278710" duration="21369000" />
+      <workItem from="1569676278710" duration="22018000" />
     </task>
     <task id="LOCAL-00001" summary="added links">
       <created>1569965501067</created>
@@ -74,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570025270779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added additional Styling">
+      <created>1570028249669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570028249669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added links" />
     <MESSAGE value="added typography and color and content" />
-    <option name="LAST_COMMIT_MESSAGE" value="added typography and color and content" />
+    <MESSAGE value="added additional Styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added additional Styling" />
   </component>
 </project>
