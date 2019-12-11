@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b1518a93-482a-46d1-930f-9c880ec1e97c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects.js" afterDir="false" />
     </list>
@@ -59,7 +61,8 @@
       <updated>1569676277499</updated>
       <workItem from="1569676278710" duration="22965000" />
       <workItem from="1570641900384" duration="754000" />
-      <workItem from="1575948216746" duration="953000" />
+      <workItem from="1575948216746" duration="1259000" />
+      <workItem from="1576087322038" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="added links">
       <created>1569965501067</created>
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570029243281</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added new Project">
+      <created>1575949231535</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949231535</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +130,7 @@
     <MESSAGE value="added typography and color and content" />
     <MESSAGE value="added additional Styling" />
     <MESSAGE value="Fixed Accessibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Accessibility" />
+    <MESSAGE value="added new Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new Project" />
   </component>
 </project>

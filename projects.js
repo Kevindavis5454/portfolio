@@ -16,7 +16,7 @@ function quizAppDescription() {
                     <a href="https://Kevindavis5454.github.io/quiz-app-final-kd">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/quiz-app-final-kd">Repo</a>
 
-                    <img class="project-pic" src="https://Kevindavis5454.github.io/portfolio-greybox/assets/quizappscreen.png" alt="Screen shot of Australian Shepherd Quiz">
+                    <img class="project-pic" src="https://Kevindavis5454.github.io/portfolio/assets/quizappscreen.png" alt="Screen shot of Australian Shepherd Quiz">
 `);
     $('#project-description-block').html(quizAppInfo);
 
@@ -39,7 +39,7 @@ function sproutsDescritpion() {
                     <a href="https://kevindavis5454.github.io/sprouts-and-showers/">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/sprouts-and-showers.git">Repo</a>
 
-                    <img class="project-pic" src="https://Kevindavis5454.github.io/portfolio-greybox/assets/sprouts-landing-page.png" alt="Screen shot of Sprouts and Showers App">
+                    <img class="project-pic" src="https://Kevindavis5454.github.io/portfolio/assets/sprouts-landing-page.png" alt="Screen shot of Sprouts and Showers App">
     `)
     $('#project-description-block').html(sproutsAppInfo);
 }
