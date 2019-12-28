@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1518a93-482a-46d1-930f-9c880ec1e97c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
       <workItem from="1570641900384" duration="754000" />
       <workItem from="1575948216746" duration="1259000" />
       <workItem from="1576087322038" duration="722000" />
+      <workItem from="1577554930395" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="added links">
       <created>1569965501067</created>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576087589103</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Redirected pages after rename">
+      <created>1577555069991</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577555069991</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
