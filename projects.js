@@ -13,8 +13,8 @@ function quizAppDescription() {
     <div class="project-info" aria-live="assertive">
                     <h2>Australian Shepherd Quiz</h2>
                     <p>Uses HTML5, CSS, Javascript, JQuery</p>
-                    <a href="https://Kevindavis5454.github.io/quiz-app-final-kd">Live Page</a>
-                    <a href="https://github.com/Kevindavis5454/quiz-app-final-kd">Repo</a>
+                    <a href="https://kevindavis5454.github.io/australian-shepherd-quiz/">Live Page</a>
+                    <a href="https://github.com/Kevindavis5454/australian-shepherd-quiz.git">Repo</a>
 
                     <img class="project-pic" src="https://Kevindavis5454.github.io/portfolio/assets/quizappscreen.png" alt="Screen shot of Australian Shepherd Quiz">
 `);

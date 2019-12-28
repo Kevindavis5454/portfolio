@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1518a93-482a-46d1-930f-9c880ec1e97c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +57,7 @@
       <workItem from="1569676278710" duration="22965000" />
       <workItem from="1570641900384" duration="754000" />
       <workItem from="1575948216746" duration="1259000" />
-      <workItem from="1576087322038" duration="248000" />
+      <workItem from="1576087322038" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="added links">
       <created>1569965501067</created>
@@ -106,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575949231535</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Redirected pages after rename">
+      <created>1576087589103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576087589103</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +133,7 @@
     <MESSAGE value="added additional Styling" />
     <MESSAGE value="Fixed Accessibility" />
     <MESSAGE value="added new Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new Project" />
+    <MESSAGE value="Redirected pages after rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redirected pages after rename" />
   </component>
 </project>
