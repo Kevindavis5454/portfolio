@@ -162,6 +162,14 @@ nav {
     height: 415px;
   }
 
+  #headline {
+    height: 209px;
+  }
+
+  #bio {
+    height: 415px;
+  }
+
   #profile-pic {
     transform: rotate(90deg);
     width: 200px;
