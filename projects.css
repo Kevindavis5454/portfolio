@@ -1,185 +1,179 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Nixie One', cursive;
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    background-color: #ecf0f4;
-
+  font-family: "Nixie One", cursive;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  background-color: #ecf0f4;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
-    width: 100%;
-    max-width: 320px;
-    background-color: #C9CDD6;
-    padding: 15px;
-    white-space: pre-line;
-    line-height: 24px;
-    font-size: 18px;
-    font-weight: 900;
+  width: 100%;
+  max-width: 320px;
+  background-color: #c9cdd6;
+  padding: 15px;
+  white-space: pre-line;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 hr {
-    width: 320px;
-    border: solid black 1px;
+  width: 320px;
+  border: solid black 1px;
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
-    background-color: #647791;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    margin: 10px 10px 10px 10px;
+  background-color: #647791;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  margin: 10px 10px 10px 10px;
+  height: 40px;
+  width: 100px;
 }
 
 button:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 a {
-    text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 a:hover {
-    font-size: 125%;
-
+  font-size: 125%;
 }
 
 .lang-icons {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .lang-wide-icons {
-    width: 65px;
-    height: 50px;
+  width: 65px;
+  height: 50px;
 }
 
-
 @media screen and (min-width: 0px) and (max-width: 500px) {
+  .project-pic {
+    width: 220px;
+    height: 220px;
+  }
 
-    .project-pic {
-        width: 220px;
-        height: 220px;
-    }
+  footer {
+    width: 320px;
+  }
 
-    footer {
-        width: 320px;
-    }
+  .lang-icons {
+    width: 30px;
+    height: 30px;
+  }
 
-    .lang-icons {
-        width: 30px;
-        height: 30px;
-    }
-
-    .lang-wide-icons {
-        width: 45px;
-        height: 30px;
-    }
+  .lang-wide-icons {
+    width: 45px;
+    height: 30px;
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 1099px) {
+  section {
+    max-width: 625px;
+  }
 
-    section {
-        max-width: 625px;
-    }
+  hr {
+    width: 625px;
+  }
 
-    hr {
-        width: 625px;
-    }
+  nav {
+    width: 625px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-    nav {
-        width: 625px;
-        display: flex;
-        justify-content: space-evenly;
-    }
+  footer {
+    width: 625px;
+    flex-direction: row;
+  }
 
-    footer {
-        width: 625px;
-        flex-direction: row;
-    }
-
-    .project-pic {
-        width: 525px;
-        height: 525px;
-    }
-
+  .project-pic {
+    width: 525px;
+    height: 525px;
+  }
 }
 
 @media screen and (min-width: 1100px) {
+  #project-browser {
+    display: flex;
+  }
 
-    #project-browser {
-        display: flex;
-    }
+  #project-section-break {
+    display: none;
+  }
 
-    #project-section-break {
-        display: none;
-    }
+  #project-buttons {
+    display: flex;
+    width: 340px;
+    padding: 10px;
+    border-right: black solid 1px;
+  }
 
-    #project-buttons {
-        display: flex;
-        width: 340px;
-        padding: 10px;
-        border-right: black solid 1px;
-    }
+  #project-info {
+    width: 760px;
+    padding: 10px;
+  }
 
-    #project-info {
-        width: 760px;
-        padding: 10px;
-    }
+  #current-projects {
+    justify-content: space-evenly;
+    height: 100%;
+  }
 
-    #current-projects {
-        justify-content: space-evenly;
-        height: 100%;
-    }
+  .project-pic {
+    width: 650px;
+    height: 650px;
+  }
 
-    .project-pic {
-        width: 650px;
-        height: 650px;
-    }
+  section {
+    max-width: 1100px;
+  }
 
-    section {
-        max-width: 1100px;
-    }
+  hr {
+    width: 1100px;
+  }
 
-    hr {
-        width: 1100px;
-    }
+  nav {
+    width: 1100px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-    nav {
-        width: 1100px;
-        display: flex;
-        flex-direction: row-reverse;
-
-    }
-
-    footer {
-        width: 1100px;
-        flex-direction: row;
-    }
+  footer {
+    width: 1100px;
+    flex-direction: row;
+  }
 }

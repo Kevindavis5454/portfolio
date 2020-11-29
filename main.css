@@ -74,11 +74,6 @@ nav {
   height: 40px;
 }
 
-.project-button {
-  height: 30px;
-  width: 200px;
-}
-
 @media screen and (min-width: 0px) and (max-width: 500px) {
   .row-1 {
     display: none;
