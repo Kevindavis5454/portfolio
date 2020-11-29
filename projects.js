@@ -68,7 +68,7 @@ function cutthroatAppStart() {
   });
 }
 
-function cutthroatDescritpion() {
+function cutthroatDescription() {
   const cutthroatAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Cutthroat Losers</h2>
