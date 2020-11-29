@@ -1,7 +1,7 @@
 function quizAppStart(ele, func) {
-  $(ele).on("click", function (event) {
+  $("#quiz-app-button").on("click", function (event) {
     event.preventDefault();
-    func;
+    quizAppDescription();
   });
   console.log("`quizAppStart` ran");
 }
@@ -42,7 +42,7 @@ function sproutsDescritpion() {
 }
 
 function handleProjectDescriptions() {
-  quizAppStart("#quiz-app-button", quizAppDescription());
+  quizAppStart();
   sproutAppStart();
 }
 
