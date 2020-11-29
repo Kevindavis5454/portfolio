@@ -10,6 +10,7 @@ function quizAppDescription() {
   const quizAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Australian Shepherd Quiz</h2>
+                    <p>A fun Quiz App about Australian Shepherds</p>
                     <p>Uses HTML5, CSS, Javascript, JQuery</p>
                     <a href="https://kevindavis5454.github.io/australian-shepherd-quiz/">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/australian-shepherd-quiz.git">Repo</a>
@@ -32,6 +33,7 @@ function sproutsDescritpion() {
   const sproutsAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Sprouts and Showers</h2>
+                    <p>An app to help plan out gardens with growing information</p>
                     <p>Uses HTML5, CSS, Javascript, JQuery</p>
                     <a href="https://kevindavis5454.github.io/sprouts-and-showers/">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/sprouts-and-showers.git">Repo</a>
@@ -52,6 +54,7 @@ function notefulDescritpion() {
   const notefulAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Noteful</h2>
+                    <p>A note taking app</p>
                     <p>Uses HTML5, CSS, Javascript, React, Node.js, Express, PostgreSQL, Knex </p>
                     <a href="https://noteful-beta.now.sh/">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/noteful.git">Repo</a>
@@ -72,6 +75,7 @@ function cutthroatDescription() {
   const cutthroatAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Cutthroat Losers</h2>
+                    <p>An app to help inject some fun into a weight loss competition</p>
                     <p>Uses HTML5, CSS, Javascript, React, Node.js, Express, PostgreSQL, Knex </p>
                     <a href="https://cutthroat-losers-app.herokuapp.com/">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/cutthroat-losers.git">APP Repo</a>
@@ -93,6 +97,7 @@ function tinyLunchesDescription() {
   const tinyLunchesAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Tiny Lunches</h2>
+                    <p>An App to help new sleep deprived parents easily make lunches for their kids</p>
                     <p>Uses HTML5, CSS, Javascript, React, Node.js, Express, PostgreSQL, Knex </p>
                     <a href="https://tiny-lunches-app.vercel.app/">Live Page</a>
                     <a href="https://github.com/Kevindavis5454/tiny-lunches-app.git">APP Repo</a>
