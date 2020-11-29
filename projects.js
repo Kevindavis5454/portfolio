@@ -64,7 +64,7 @@ function notefulDescritpion() {
 function cutthroatAppStart() {
   $("#cut-losers-button").on("click", function (event) {
     event.preventDefault();
-    cutthroatDescritpion();
+    cutthroatDescription();
   });
 }
 
@@ -85,11 +85,11 @@ function cutthroatDescritpion() {
 function tinyLunchesAppStart() {
   $("#tiny-lunches-buttons").on("click", function (event) {
     event.preventDefault();
-    tinyLunchesDescritpion();
+    tinyLunchesDescription();
   });
 }
 
-function tinyLunchesDescritpion() {
+function tinyLunchesDescription() {
   const tinyLunchesAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Tiny Lunches</h2>
