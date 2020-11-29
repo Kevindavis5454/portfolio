@@ -61,15 +61,15 @@ function notefulDescritpion() {
   $("#project-description-block").html(notefulAppInfo);
 }
 
-function cuththroatAppStart() {
+function cutthroatAppStart() {
   $("#cut-losers-button").on("click", function (event) {
     event.preventDefault();
     cutthroatDescritpion();
   });
 }
 
-function cuththroatDescritpion() {
-  const cuththroatAppInfo = $(`
+function cutthroatDescritpion() {
+  const cutthroatAppInfo = $(`
     <div class="project-info" aria-live="assertive">
                     <h2>Cutthroat Losers</h2>
                     <p>Uses HTML5, CSS, Javascript, React, Node.js, Express, PostgreSQL, Knex </p>
@@ -79,7 +79,7 @@ function cuththroatDescritpion() {
 
                     <img class="project-pic" src="https://Kevindavis5454.github.io/portfolio/assets/CLosers1.png" alt="Screen shot of Cutthroat Losers App">
     `);
-  $("#project-description-block").html(cuththroatAppInfo);
+  $("#project-description-block").html(cutthroatAppInfo);
 }
 
 function tinyLunchesAppStart() {
@@ -107,7 +107,8 @@ function handleProjectDescriptions() {
   quizAppStart();
   sproutAppStart();
   notefulAppStart();
-  cuththroatAppStart();
+  cutthroatAppStart();
+  tinyLunchesAppStart();
 }
 
 $(handleProjectDescriptions);
