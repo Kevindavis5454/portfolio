@@ -57,6 +57,11 @@ button {
   width: 200px;
 }
 
+.project-span {
+  width: 200px;
+  height: 100px;
+}
+
 button:hover {
   background-color: white;
   color: black;
