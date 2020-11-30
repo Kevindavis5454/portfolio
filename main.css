@@ -16,7 +16,7 @@ main {
   align-items: center;
 }
 
-section {
+.section {
   width: 100%;
   max-width: 320px;
   background-color: #cacdd6;
